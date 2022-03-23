@@ -50,20 +50,10 @@ url_source: ""
 url_video: ""
 publication: 2019 Conference on Cognitive Computational Neuroscience, 13-16
   September 2019, Berlin, Germany
-featured: true
+featured: false
 date: 2022-03-23T19:13:12.383Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
