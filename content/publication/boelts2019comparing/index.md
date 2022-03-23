@@ -50,8 +50,8 @@ url_source: ""
 url_video: ""
 publication: 2019 Conference on Cognitive Computational Neuroscience, 13-16
   September 2019, Berlin, Germany
-featured: false
-date: 2022-03-23T19:13:12.383Z
+featured: true
+date: 2019-03-23T19:13:12.383Z
 url_slides: ""
 publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""

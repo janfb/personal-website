@@ -34,8 +34,8 @@ url_project: ""
 url_source: ""
 url_video: ""
 publication: Journal of Open Source Software
-featured: false
-date: 2022-03-23T19:13:12.383Z
+featured: true
+date: 2020-08-23T19:13:12.383Z
 url_slides: ""
 publishDate: 2020-08-21T00:00:00.000Z
 url_poster: ""
