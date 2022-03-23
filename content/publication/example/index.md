@@ -1,79 +1,58 @@
 ---
-title: "An example conference paper"
-
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
-# and it will be replaced with their full name and linked to their profile.
+title: Comparing neural simulations by neural density estimation
 authors:
-- admin
-- Robert Ford
-
-# Author notes (optional)
+  - Jan Boelts
+  - Jan-Matthis Lueckmann
+  - Pedro J. Goncalves
+  - Henning Sprekeler
+  - Jakob H. Macke
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-
-date: "2013-07-01T00:00:00Z"
-doi: ""
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["1"]
-
-# Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
+  - Technical University of Munich
+  - Technical University of Munich
+  - Research Center Bonn
+  - Technical University Berlin
+  - Technical University of Munich
+publication_short: In *CCN*
+abstract: A common problem in computational neuroscience is the comparison of
+  competing models in the light of observed data. Bayesian model comparison
+  provides a statistically sound framework for this comparison based on the
+  evidence each model provides for the data. In practice, however, models are
+  often defined through complex simulators so that methods relying on likelihood
+  functions are not applicable. Previous approaches in the field of Approximate
+  Bayesian Computation (ABC) rely on rejection sampling to circumvent the
+  likelihood, but are typically computationally inefficient. We propose an
+  efficient method to perform Bayesian model comparison for simulation-based
+  models. Using recent advances in posterior density estimation, we train a
+  mixture-density network to map features of the observed data to the parameters
+  of the posterior over models. We show that the method performs accurately on
+  two tractable example problems, and present an application to a use case
+  scenario from computational neuroscience -- the comparison of ion channel
+  models.
 tags: []
-
-# Display this page in the Featured widget?
-featured: true
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+projects:
+  - Simulation-based model comparison
+slides: ""
+url_pdf: ""
+publication_types:
+  - "1"
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ""
   focal_point: ""
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+summary: ""
+url_dataset: ""
+url_project: ""
+url_source: ""
+url_video: ""
+publication: 2019 Conference on Cognitive Computational Neuroscience, 13-16
+  September 2019, Berlin, Germany
+featured: true
+date: 2022-03-23T19:13:12.383Z
+url_slides: ""
+publishDate: 2017-01-01T00:00:00Z
+url_poster: ""
+url_code: ""
+doi: 10.32470/CCN.2019.1291-0
 ---
 
 {{% callout note %}}
