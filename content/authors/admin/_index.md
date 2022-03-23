@@ -14,13 +14,14 @@ organizations:
   url: www.mackelab.org
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am interested 
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Simulation-based inference
+- Model comparison
+- Bayesian deep learning
+- Probabilistic programming
 
 # Education to show in About widget
 education:
@@ -74,6 +75,11 @@ email: ""
 highlight_name: true
 ---
 
-I am a PhD student with Jakob Macke at TU Munich and University of Tübingen. Building on a background in Cognitive Science (BSc at University of Osnabrück) and Computational Neuroscience (MSc at TU Berlin) I am now developing probabilistic machine learning tools for science and applying them to neuroscience.
+I am a PhD student with [Jakob Macke](https://www.mackelab.org) at University of Tübingen working on the intersection of machine learning and neuroscience. 
+I have a background in Cognitive Science and in Computational Neuroscience but discovered my passion for developing new machine learning methods during my masters. 
+Now I am developing probabilistic machine learning tools and apply them to problems in computational neuroscience. 
+
+My research focus lies on simulation-based inference (SBI), a method to perform Bayesian inference in computational models for which standard approximate inference methods like _MCMC_ or _VI_ do not work. 
+I am one of the core developers of [_sbi_](https://www.mackelab.org/sbi), a Python toolbox for SBI that has gained a lot of attention over last years (used in >40 publications, >260 stars on GitHub). 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
