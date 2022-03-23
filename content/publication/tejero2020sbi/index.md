@@ -7,7 +7,7 @@ authors:
   - Michael Deistler
   - Jan-Matthis Lueckmann
   - Conor Durkan
-  - Pedro J Gon{\c{c}}alves
+  - Pedro J Goncalves
   - David S Greenberg
   - Jakob H Macke
 author_notes:

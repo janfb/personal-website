@@ -18,10 +18,10 @@ bio: I am interested
 
 # Interests to show in About widget
 interests:
+- Bayesian inference
 - Simulation-based inference
-- Model comparison
-- Bayesian deep learning
 - Probabilistic programming
+- Bayesian deep learning
 
 # Education to show in About widget
 education:
