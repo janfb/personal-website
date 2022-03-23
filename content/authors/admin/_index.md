@@ -73,7 +73,7 @@ highlight_name: true
 ---
 
 I am a PhD student with [Jakob Macke](https://www.mackelab.org) at University of Tübingen working on the intersection of machine learning and neuroscience. 
-I have a background in Cognitive Science and in Computational Neuroscience but discovered my passion for developing new machine learning methods during my masters. 
+I have a background in Cognitive Science and in Computational Neuroscience and discovered my passion for developing new machine learning methods during my masters. 
 Now I am developing probabilistic machine learning tools and apply them to problems in computational neuroscience. 
 
 My research focus lies on simulation-based inference (SBI), a method to perform Bayesian inference in computational models for which standard approximate inference methods like _MCMC_ or _VI_ do not work. 
