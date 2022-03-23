@@ -79,4 +79,4 @@ Now I am developing probabilistic machine learning tools and apply them to probl
 My research focus lies on simulation-based inference (SBI), a method to perform Bayesian inference in computational models for which standard approximate inference methods like _MCMC_ or _VI_ do not work. 
 I am one of the core developers of [_sbi_](https://www.mackelab.org/sbi), a Python toolbox for SBI that has gained a lot of attention over last years (used in >40 publications, >260 stars on GitHub). 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
