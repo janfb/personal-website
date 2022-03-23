@@ -1,5 +1,6 @@
 ---
 title: Comparing neural simulations by neural density estimation
+subtitle: ""
 authors:
   - Jan Boelts
   - Jan-Matthis Lueckmann
@@ -12,7 +13,8 @@ author_notes:
   - Research Center Bonn
   - Technical University Berlin
   - Technical University of Munich
-publication_short: In *CCN*
+doi: 10.32470/CCN.2019.1291-0
+publication_short: In CCN
 abstract: A common problem in computational neuroscience is the comparison of
   competing models in the light of observed data. Bayesian model comparison
   provides a statistically sound framework for this comparison based on the
@@ -36,9 +38,11 @@ url_pdf: ""
 publication_types:
   - "1"
 image:
-  caption: ""
+  caption: Simulated training dataset (top) and predicted posterior probabilities
+    of the three models (bottom)
   focal_point: ""
   preview_only: false
+  filename: screenshot-2022-03-23-at-20.32.08.png
 summary: ""
 url_dataset: ""
 url_project: ""
@@ -49,10 +53,9 @@ publication: 2019 Conference on Cognitive Computational Neuroscience, 13-16
 featured: true
 date: 2022-03-23T19:13:12.383Z
 url_slides: ""
-publishDate: 2017-01-01T00:00:00Z
+publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
-doi: 10.32470/CCN.2019.1291-0
 ---
 
 {{% callout note %}}
