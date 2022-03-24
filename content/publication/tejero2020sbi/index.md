@@ -28,6 +28,11 @@ slides: ""
 url_pdf: "https://joss.theoj.org/papers/10.21105/joss.02505.pdf"
 publication_types:
   - "2"
+image:
+  caption: Simulation-based inference, adapted from Goncalves, Lueckmann, Deistler et al. (2020)
+  focal_point: ""
+  preview_only: false
+  filename: featured.png
 summary: ""
 url_dataset: ""
 url_project: ""
