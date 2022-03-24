@@ -1,5 +1,5 @@
 ---
-title: "An example conference paper"
+title: "Benchmarking Simulation-Based Inference"
 authors:
 - Jan-Matthis Lueckmann
 - Jan Boelts
