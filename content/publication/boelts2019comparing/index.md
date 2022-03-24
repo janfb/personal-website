@@ -42,7 +42,7 @@ image:
     of the three models (bottom)
   focal_point: ""
   preview_only: false
-  filename: screenshot-2022-03-23-at-20.32.08.png
+  filename: featured.png
 summary: ""
 url_dataset: ""
 url_project: ""
