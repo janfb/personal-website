@@ -28,7 +28,7 @@ education:
   courses:
   - course: PhD in Machine Learning
     institution: University of Tübingen
-    year: 2023
+    year: present
   - course: MSc in Computational Neuroscience
     institution: Technical University Berlin
     year: 2018

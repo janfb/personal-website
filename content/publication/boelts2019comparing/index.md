@@ -7,12 +7,12 @@ authors:
   - Pedro J. Goncalves
   - Henning Sprekeler
   - Jakob H. Macke
-author_notes:
-  - Technical University of Munich
-  - Technical University of Munich
-  - Research Center Bonn
-  - Technical University Berlin
-  - Technical University of Munich
+# author_notes:
+#   - Technical University of Munich
+#   - Technical University of Munich
+#   - Research Center Bonn
+#   - Technical University Berlin
+#   - Technical University of Munich
 doi: 10.32470/CCN.2019.1291-0
 publication_short: In CCN
 abstract: A common problem in computational neuroscience is the comparison of
