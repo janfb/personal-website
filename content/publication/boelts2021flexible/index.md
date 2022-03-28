@@ -28,7 +28,7 @@ summary: We propose a new method to perform simulation-based inference for mixed
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 links:
 - name: Website
