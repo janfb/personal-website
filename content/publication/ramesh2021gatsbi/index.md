@@ -34,8 +34,8 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
-  url: https://github.com/mackelab/gatsbi
+- name: Review
+  url: https://openreview.net/forum?id=kR1hC6j48Tp
 url_pdf: https://openreview.net/pdf?id=kR1hC6j48Tp
 url_code: 'https://github.com/mackelab/gatsbi'
 # url_dataset: '#'

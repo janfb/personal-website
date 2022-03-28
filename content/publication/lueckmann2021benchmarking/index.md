@@ -32,7 +32,7 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
+- name: Website
   url: https://sbi-benchmark.github.io
 url_pdf: http://proceedings.mlr.press/v130/lueckmann21a/lueckmann21a.pdf
 url_code: 'https://github.com/sbi-benchmark/sbibm'

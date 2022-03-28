@@ -31,7 +31,7 @@ tags:
 featured: false
 
 links:
-- name: Custom Link
+- name: Website
   url: https://www.biorxiv.org/content/10.1101/2021.12.22.473472v2.abstract
 url_pdf: https://www.biorxiv.org/content/10.1101/2021.12.22.473472v2.full.pdf
 url_code: 'https://github.com/mackelab/mnle-for-ddms'
@@ -64,9 +64,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
-<!-- 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
