@@ -74,11 +74,11 @@ highlight_name: true
 
 I am a PhD student in the [mackelab](https://www.mackelab.org) at University of Tübingen working on the intersection of machine learning and neuroscience.
 I have a background in Cognitive Science (BSc) and Computational Neuroscience (MSc) and discovered my passion for Bayesian statistics and machine learning during my masters.
-Since then I am developing probabilistic machine learning tools and apply them to problems in computational neuroscience.
+Since then I am developing probabilistic machine learning tools and applying them to problems in computational neuroscience.
 
-My research focus lies on simulation-based inference (SBI), a method to perform Bayesian inference on simulation-based models like they often occur in astrophysics, economics, biology, neuroscience and many other fields.
-I am one of the core developers of [_sbi_](https://www.mackelab.org/sbi), a Python toolbox for SBI which has gained a lot of attention recently ([link](https://scholar.google.de/citations?view_op=view_citation&hl=de&user=VObPwpUAAAAJ&citation_for_view=VObPwpUAAAAJ:P5F9QuxV20EC)).
-At the moment I am particularly interest in hierarchical inference for SBI, and model comparison for SBI.
+My research focus lies on simulation-based inference (SBI), a method to perform Bayesian inference in simulation-based models like they often occur in astrophysics, economics, biology, neuroscience and many other fields.
+I am one of the core developers of [_sbi_](https://www.mackelab.org/sbi), a Python toolbox for SBI ([link to paper](https://scholar.google.de/scholar?hl=de&as_sdt=0%2C5&q=SBI--A+toolkit+for+simulation-based+inference&btnG=)).
+At the moment I am particularly interested in hierarchical inference, model misspecification and model comparison in SBI.
 Please contact me for questions and dicussions.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

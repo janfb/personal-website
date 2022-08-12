@@ -5,7 +5,7 @@ authors:
 - Jan-Matthis Lueckmann
 - Richard Gao
 - Jakob H Macke
-date: "2022-01-25T00:00:00Z"
+date: "2022-07-27T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -18,10 +18,10 @@ publishDate: "2022-01-25T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "bioRxiv"
+publication: "eLife"
 publication_short: ""
 
-abstract: Identifying parameters of computational models that capture experimental data is a central task in cognitive neuroscience. Bayesian statistical inference aims to not only identify a single configuration of best-fitting parameters, but to recover all model parameters that are consistent with the data and prior knowledge. Statistical inference methods usually require the ability to evaluate the likelihood of the model—however, for many models of interest in cognitive neuroscience, the associated likelihoods cannot be computed efficiently. Simulation-based inference (SBI) offers a solution to this problem by only requiring access to simulations produced by the model. Here, we provide an efficient SBI method for models of decision-making. Our approach, Mixed Neural Likelihood Estimation (MNLE), trains neural density estimators on model simulations to emulate the simulator. The likelihoods of the emulator can then be used to perform Bayesian parameter inference on experimental data using standard approximate inference methods like Markov Chain Monte Carlo sampling. While most neural likelihood estimation methods target continuous data, MNLE works with mixed data types, as typically obtained in decision-making experiments (e.g., binary decisions and associated continuous reaction times). We demonstrate MNLE on two variants of the drift-diffusion model (DDM) and compare its performance to a recently proposed method for SBI on DDMs, called likelihood approximation networks (LAN, Fengler et al. 2021). We show that MNLE is substantially more efficient than LANs, requiring six orders of magnitudes fewer model simulations to achieve comparable likelihood accuracy and evaluation time while providing the same level of flexibility. We include an implementation of our algorithm in the user-friendly open-source package sbi.
+abstract: Inferring parameters of computational models that capture experimental data is a central task in cognitive neuroscience. Bayesian statistical inference methods usually require the ability to evaluate the likelihood of the model—however, for many models of interest in cognitive neuroscience, the associated likelihoods cannot be computed efficiently. Simulation-based inference (SBI) offers a solution to this problem by only requiring access to simulations produced by the model. Previously, Fengler et al. introduced Likelihood Approximation Networks (LAN, Fengler et al., 2021) which make it possible to apply SBI to models of decision-making, but require billions of simulations for training. Here, we provide a new SBI method that is substantially more simulation-efficient. Our approach, Mixed Neural Likelihood Estimation (MNLE), trains neural density estimators on model simulations to emulate the simulator, and is designed to capture both the continuous (e.g., reaction times) and discrete (choices) data of decision-making models. The likelihoods of the emulator can then be used to perform Bayesian parameter inference on experimental data using standard approximate inference methods like Markov Chain Monte Carlo sampling. We demonstrate MNLE on two variants of the drift-diffusion model (DDM) and show that it is substantially more efficient than LANs: MNLE achieves similar likelihood accuracy with six orders of magnitude fewer training simulations, and is significantly more accurate than LANs when both are trained with the same budget. This enables researchers to perform SBI on custom-tailored models of decision-making, leading to fast iteration of model design for scientific discovery.
 
 # Summary. An optional shortened abstract.
 summary: We propose a new method to perform simulation-based inference for mixed data e.g., with continuous and discrete data types, like they often occur in models of decision-making.
@@ -32,7 +32,7 @@ featured: true
 
 links:
 - name: Website
-  url: https://www.biorxiv.org/content/10.1101/2021.12.22.473472v2.abstract
+  url: https://elifesciences.org/articles/77220
 url_pdf: https://www.biorxiv.org/content/10.1101/2021.12.22.473472v2.full.pdf
 url_code: 'https://github.com/mackelab/mnle-for-ddms'
 # url_dataset: '#'
