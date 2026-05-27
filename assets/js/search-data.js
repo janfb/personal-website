@@ -51,18 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-new-site-new-home-for-blog-posts",
-        
-          title: "New site, new home for blog posts",
-        
-        description: "This site has moved to Jekyll + al-folio. Blog posts on simulation-based inference and probabilistic ML are coming.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/welcome/";
-          
-        },
-      },{id: "projects-sbi",
+        },{id: "projects-sbi",
           title: 'sbi',
           description: "Python toolkit for simulation-based inference. NumFOCUS-affiliated, 80+ contributors. I&#39;m one of the lead maintainers.",
           section: "Projects",handler: () => {
