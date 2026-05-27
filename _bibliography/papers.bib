@@ -3,6 +3,26 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{boelts2026mixed,
+  abbr = {arXiv},
+  selected = {true},
+  preview = {mixed-npe-2026.png},
+  title = {Mixed neural posterior estimation for simulators with discrete and continuous parameters},
+  author = {Boelts*, Jan and Schr{\"o}der*, Cornelius and Beck*, Jonas and Macke, Jakob H. and Deistler, Michael and Gedon, Daniel},
+  year = {2026},
+  month = may,
+  eprint = {2605.13551},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.LG},
+  doi = {10.48550/arXiv.2605.13551},
+  arxiv = {2605.13551},
+  pdf = {mixed-npe-2026.pdf},
+  html = {https://arxiv.org/abs/2605.13551},
+  code = {https://github.com/sbi-dev/sbi},
+  note = {* equal contribution},
+  abstract = {Neural Posterior Estimation (NPE) enables rapid parameter inference for complex simulators with intractable likelihoods. NPE trains an inference network to estimate a probability density over parameters given data, typically assumed to be continuous. However, many scientific models involve parameter spaces that are mixed, that is, they contain both discrete and continuous dimensions. We address this limitation by extending NPE to mixed parameter spaces through an inference network that jointly handles discrete and continuous parameters. The inference network factorizes the joint posterior into discrete and continuous components, combining an autoregressive classifier for the discrete parameters with a generative model for the continuous parameters, trained jointly under a single simulation-based objective. In addition, we propose a diagnostic tool to assess the calibration of the mixed posterior approximation. Across tractable toy examples and real-world scientific simulators, our joint inference approach yields accurate and calibrated posteriors. The inference framework is available in the sbi Python package.}
+}
+
 @misc{deistler2025practical,
   abbr = {arXiv},
   selected = {true},
@@ -26,6 +46,7 @@
 @article{boelts2025sbi,
   abbr = {JOSS},
   selected = {true},
+  preview = {sbi-reloaded-2025.png},
   title = {sbi reloaded: A toolkit for simulation-based inference workflows},
   author = {Boelts*, Jan and Deistler*, Michael and Gloeckler, Manuel and Tejero-Cantero, {\'A}lvaro and Lueckmann, Jan-Matthis and Moss, Guy and Steinbach, Peter and Moreau, Thomas and Muratore, Fabio and Linhart, Julia and Durkan, Conor and Vetter, Julius and Miller, Benjamin Kurt and Herold, Maternus and Ziaeemehr, Abolfazl and Pals, Matthijs and Gruner, Theo and Bischoff, Sebastian and Krouglova, Nastya and Gao, Richard and Lappalainen, Janne K. and Mucs{\'a}nyi, B{\'a}lint and Pei, Felix and Schulz, Auguste and Stefanidi, Zinovia and Rodrigues, Pedro and Schr{\"o}der, Cornelius and Zaid, Faried Abu and Beck, Jonas and Kapoor, Jaivardhan and Greenberg, David S. and Gon{\c c}alves, Pedro J. and Macke, Jakob H.},
   year = {2025},
