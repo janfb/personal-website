@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-sbi",
+        },{id: "post-model-misspecification-in-simulation-based-inference-recent-advances-and-open-challenges",
+        
+          title: 'Model Misspecification in Simulation-Based Inference: Recent Advances and Open Challenges <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "An ICLR 2026 blogpost on what happens to simulation-based inference when the simulator doesn&#39;t match reality — and what to do about it.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://iclr-blogposts.github.io/2026/blog/2026/model-misspecification-in-sbi/", "_blank");
+          
+        },
+      },{id: "projects-sbi",
           title: 'sbi',
           description: "Python toolkit for simulation-based inference. NumFOCUS-affiliated, 80+ contributors. I&#39;m one of the lead maintainers.",
           section: "Projects",handler: () => {
@@ -120,6 +131,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=wsE4N68AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-4979-7092", "_blank");
         },
       },{
         id: 'social-rss',
