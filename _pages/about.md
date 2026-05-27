@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+description: "Jan Teusen (formerly Jan Boelts) — Senior AI Researcher at the TransferLab, appliedAI Institute, and lead developer of the sbi Python package. Research on simulation-based inference, probabilistic machine learning, and Bayesian inference for scientific simulators."
 subtitle: Senior AI Researcher at <a href="https://transferlab.ai/authors/jan-teusen/">TransferLab</a> · Lead developer of <a href="https://sbi.readthedocs.io/en/latest">sbi</a>
 
 profile:
